@@ -1,0 +1,5 @@
+numpy>=1.21
+scipy>=1.7
+torch>=1.13
+pyyaml>=5.4
+wandb>=0.15   # only for bo_search.py

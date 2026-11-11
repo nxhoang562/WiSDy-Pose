@@ -1,0 +1,15 @@
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.idea/
+.vscode/
+
+# data, outputs, experiment tracking
+Data/
+MMFi/
+Processed_Data/
+runs/
+wandb/
+*.pt
+*.pth

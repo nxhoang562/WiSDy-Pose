@@ -1,0 +1,37 @@
+# Protocol 2 (13 rehabilitation exercises), 20% random noise: Denoiser + Estimator.
+# Hyperparameters: Table IV (Denoiser) and Table V (Estimator) of the paper.
+seed: 0
+
+data:
+  protocol: protocol2
+  split: random          # random (S1) | cross_subject (S2) | cross_environment (S3)
+  train_ratio: 0.8        # S1: share of subjects used for training, per action
+  split_seed: 42
+  val_test_seed: 41       # held-out frames -> half validation, half test
+  resize: [136, 32]       # 114 subcarriers x 10 packets -> 136 x 32 (nearest)
+  noise_level: 0.2        # std of the injected N(0, 1) noise (0.1 = 10%)
+  noise_seed: 0
+  keypoint_dims: 2
+  num_workers: 8
+
+denoiser:
+  n_kernels: [58, 144]
+  kernel_sizes: [3, 3]
+  pool_sizes: [2, 2]
+  lr: 0.0007
+  momentum: 0.5
+  lr_constant_epochs: 45  # Eq. (5)
+  batch_size: 256
+  epochs: 100
+
+estimator:                 # n_stacks = len(n_kernels)
+  n_kernels: [25, 48]
+  kernel_sizes: [2, 2]
+  pool_sizes: [2, 2]
+  n_basis_kernels: 167
+  temperature: 32
+  dropout: 0.1743
+  d_hidden: 32
+  lr: 0.001
+  batch_size: 64
+  epochs: 100
