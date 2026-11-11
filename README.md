@@ -243,17 +243,7 @@ We thank the authors of the **MM-Fi dataset**, Jianfei Yang, He Huang, Yunjiao Z
 Xinyan Chen, Yuecong Xu, Shenghai Yuan, Han Zou, Chris Xiaoxuan Lu and Lihua Xie, for
 collecting and publicly releasing the multi-modal data, including the WiFi CSI and
 key-point annotations, on which all the experiments of this work are based. Our data
-splits follow their [MM-Fi toolbox](https://github.com/ybhbingo/MMFi_dataset). If you use
-the data, please also cite their paper:
-
-```bibtex
-@inproceedings{yang2023mmfi,
-  title     = {{MM-Fi}: Multi-Modal Non-Intrusive {4D} Human Dataset for Versatile Wireless Sensing},
-  author    = {Yang, Jianfei and Huang, He and Zhou, Yunjiao and Chen, Xinyan and Xu, Yuecong and Yuan, Shenghai and Zou, Han and Lu, Chris Xiaoxuan and Xie, Lihua},
-  booktitle = {Advances in Neural Information Processing Systems (NeurIPS), Datasets and Benchmarks Track},
-  year      = {2023}
-}
-```
+splits follow their [MM-Fi toolbox](https://github.com/ybhbingo/MMFi_dataset).
 
 This work was supported in part by the VinUniversity Seed Grant Program. The SDy-CNN builds
 on dynamic convolution (Chen et al., CVPR 2020) and frequency dynamic convolution (Nam et
