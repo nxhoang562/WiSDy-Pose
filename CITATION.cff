@@ -1,0 +1,45 @@
+cff-version: 1.2.0
+message: "If you use WiSDy-Pose or this code, please cite the paper below."
+type: software
+title: "WiSDy-Pose: Robust WiFi Sensing-Based Human Pose Estimation Using Denoising Autoencoder and CNN With Dynamic Subcarrier Attention"
+authors:
+  - family-names: Nguyen
+    given-names: Xuan Hoang
+  - family-names: Nguyen
+    given-names: Van-Dinh
+  - family-names: Luu
+    given-names: Quang-Trung
+  - family-names: Gian
+    given-names: Toan Dinh
+  - family-names: Shin
+    given-names: Oh-Soon
+repository-code: "https://github.com/nxhoang562/WiSDy-Pose"
+license: MIT
+keywords:
+  - WiFi sensing
+  - human pose estimation
+  - channel state information
+  - denoising autoencoder
+  - dynamic convolution
+  - MM-Fi
+preferred-citation:
+  type: article
+  title: "Robust WiFi Sensing-Based Human Pose Estimation Using Denoising Autoencoder and CNN With Dynamic Subcarrier Attention"
+  authors:
+    - family-names: Nguyen
+      given-names: Xuan Hoang
+    - family-names: Nguyen
+      given-names: Van-Dinh
+    - family-names: Luu
+      given-names: Quang-Trung
+    - family-names: Gian
+      given-names: Toan Dinh
+    - family-names: Shin
+      given-names: Oh-Soon
+  journal: "IEEE Internet of Things Journal"
+  volume: 12
+  issue: 11
+  start: 17066
+  end: 17079
+  year: 2025
+  doi: "10.1109/JIOT.2025.3535156"

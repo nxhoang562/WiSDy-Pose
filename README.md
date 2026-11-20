@@ -1,4 +1,4 @@
-# Robust WiFi Sensing-Based Human Pose Estimation with a Denoising Autoencoder and Subcarrier-Focusing Dynamic CNN
+# Robust WiFi Sensing-Based Human Pose Estimation Using Denoising Autoencoder and CNN With Dynamic Subcarrier Attention
 
 **WiSDy-Pose** (WiFi + SDy-CNN + Pose) is the official implementation of
 
